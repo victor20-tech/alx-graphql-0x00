@@ -1,0 +1,16 @@
+query {
+  characters(page: 4) {
+    info {
+      pages
+      next
+      prev
+      count
+    }
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
